@@ -123,3 +123,8 @@ img {
     z-index: 100;
     right: -495px;
 }
+
+.Text {
+    font-size: 26px;
+    line-height: 1.20;
+}

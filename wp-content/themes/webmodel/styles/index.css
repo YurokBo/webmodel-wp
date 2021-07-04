@@ -25,8 +25,6 @@
 .Header-Item {
     margin-bottom: 31px;
     padding: 0 0 0 30px;
-    font-size: 26px;
-    line-height: 1.20;
     position: relative;
 }
 
@@ -106,16 +104,44 @@
     margin-bottom: 10px;
 }
 
-.Steps-Text {
-    font-size: 26px;
-    line-height: 1.20;
-}
-
 .Steps-Btn {
     padding: 24px 96px;
 }
 
 .Steps-Decor {
     top: 320px;
-
 }
+
+
+/*  About  */
+.About {
+    padding: 100px 0 107px;
+}
+
+.About-Title {
+    margin-bottom: 60px;
+}
+
+.About-Inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.About-Content {
+    margin-bottom: 60px;
+}
+
+.About-Text {
+    margin-bottom: 65px;
+}
+
+.About-Btn {
+    padding: 23px 21px 26px;
+    text-align: center;
+}
+
+.About-Decor {
+    top: 480px;
+}
+

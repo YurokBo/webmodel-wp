@@ -19,6 +19,10 @@
         padding: 16px 62px 18px;
     }
 
+    .About-Btn {
+        padding: 23px 61px 26px;
+    }
+
 }
 
 @media (min-width: 768px) {
@@ -32,6 +36,10 @@
 
     .Btn {
         font-size: 33px;
+    }
+
+    .Text {
+        font-size: 35px;
     }
 
     .Header-Item {
@@ -100,6 +108,19 @@
         margin-bottom: 155px;
         position: relative;
     }
+
+    .About-Title {
+        margin-bottom: 18px;
+    }
+    .About-Inner {
+        flex-direction: row;
+    }
+    .About-Content {
+        width: 690px;
+        margin-right: 201px;
+        margin-bottom: 0;
+    }
+
 }
 
 @media (min-width: 1440px) {
