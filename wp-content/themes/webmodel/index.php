@@ -39,5 +39,6 @@ include('./Components/NavBar.php')
 </section>
 
 
+<script src="scripts/script.js"></script>
 </body>
 </html>

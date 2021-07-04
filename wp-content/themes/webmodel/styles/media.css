@@ -6,12 +6,15 @@
     .Btn {
         font-size: 26px;
     }
+
     .Header {
         padding: 250px 0 0;
     }
+
     .Header-Title {
         width: 100%;
     }
+
     .Header-Btn {
         padding: 16px 62px 18px;
     }
@@ -33,22 +36,41 @@
 }
 
 @media (min-width: 960px) {
-
+    .Nav-Content {
+        justify-content: flex-start;
+    }
+    .Nav-List {
+        display: flex;
+    }
+    .Nav-Item {
+        margin-right: 50px;
+        margin-bottom: 0;
+    }
+    .Nav-Btn {
+        display: none;
+    }
+    .Nav-ContentMobile {
+        display: none;
+    }
 }
 
 @media (min-width: 1248px) {
     .Header {
         padding: 130px 0 0;
     }
+
     .Header-Content {
         width: 735px;
     }
+
     .Header-Inner {
         flex-direction: row;
     }
+
     .Header-Btn {
         margin-bottom: 0;
     }
+
     /*.Header-Image {
         width: 100%;
     }*/
@@ -59,9 +81,9 @@
 }
 
 @media (min-width: 1646px) {
-   /* .Header-Image {
-        width: 100%;
-    }*/
+    /* .Header-Image {
+         width: 100%;
+     }*/
 }
 
 @media (min-width: 1920px) {

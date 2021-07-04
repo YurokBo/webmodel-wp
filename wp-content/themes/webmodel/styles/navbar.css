@@ -9,6 +9,7 @@
 
 .Nav-Content {
     display: flex;
+    justify-content: space-between;
 }
 
 .Nav-Logo {
@@ -16,15 +17,94 @@
 }
 
 .Nav-List {
-    display: flex;
+    display: none;
     padding-top: 26px;
-   /* align-items: center;*/
 }
 
 .Nav-Item {
-    margin-right: 50px;
+    margin-right: 0;
+    margin-bottom: 40px;
 }
 
 .Nav-Item:last-child {
     margin-right: 0;
 }
+
+.Nav-Btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    margin: 20px 40px 0 0;
+    border: 2px solid var(--color-bg-main2);
+    border-radius: 50%;
+}
+
+.Nav-Btn span {
+    display: block;
+    width: 35px;
+    height: 2px;
+    margin-bottom: 6px;
+    background-color: var(--color-bg-main2);
+}
+
+.Nav-Btn span:last-child {
+    margin-bottom: 0;
+}
+
+.Nav-ContentMobile {
+    position: fixed;
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--color-body);
+
+    transform: translate(100%, 0);
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.Nav-ContentMobile--active {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.Nav-LogoMobile {
+    margin-bottom: 70px;
+}
+
+.Nav-ListMobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+
+.Close span {
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    cursor: pointer;
+    top: 40px;
+    right: 40px;
+    background-color: var(--color-text-main);
+}
+
+.Close span:nth-child(1) {
+    transform: rotateZ(-45deg);
+}
+
+.Close span:nth-child(2) {
+    transform: rotateZ(45deg);
+}
+
