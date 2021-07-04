@@ -1,0 +1,30 @@
+.Nav {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 99;
+    padding: 20px 0 0;
+    background-color: var(--color-body);
+}
+
+.Nav-Content {
+    display: flex;
+}
+
+.Nav-Logo {
+    margin-right: 70px;
+}
+
+.Nav-List {
+    display: flex;
+    padding-top: 26px;
+   /* align-items: center;*/
+}
+
+.Nav-Item {
+    margin-right: 50px;
+}
+
+.Nav-Item:last-child {
+    margin-right: 0;
+}

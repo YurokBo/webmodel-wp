@@ -1,0 +1,57 @@
+/*  Header  */
+.Header {
+    padding: 145px 0 0;
+}
+
+.Header-Inner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Header-Content {
+    width: 100%;
+}
+
+.Header-Title {
+    width: 300px;
+    margin-bottom: 33px;
+}
+
+.Header-List {
+    margin-bottom: 70px;
+}
+
+.Header-Item {
+    margin-bottom: 31px;
+    padding: 0 0 0 30px;
+    font-size: 26px;
+    line-height: 1.20;
+    position: relative;
+}
+
+.Header-Item:before {
+    content: '';
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    top: 10px;
+    left: 0;
+    /*transform: translate(0, -50%);*/
+    background: var(--color-bg-light);
+    border-radius: 2px;
+}
+
+.Header-Item:last-child {
+    margin-bottom: 0;
+}
+
+.Header-Btn {
+    margin-bottom: 70px;
+    padding: 16px 22px 18px;
+}
+
+.Header-Decor {
+    top: 280px;
+    right: -465px;
+}

@@ -1,0 +1,71 @@
+@media (min-width: 460px) {
+
+}
+
+@media (min-width: 590px) {
+    .Btn {
+        font-size: 26px;
+    }
+    .Header {
+        padding: 250px 0 0;
+    }
+    .Header-Title {
+        width: 100%;
+    }
+    .Header-Btn {
+        padding: 16px 62px 18px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .Title--h1 {
+        font-size: 61px;
+    }
+
+    .Btn {
+        font-size: 33px;
+    }
+
+    .Header-Item {
+        font-size: 35px;
+    }
+}
+
+@media (min-width: 960px) {
+
+}
+
+@media (min-width: 1248px) {
+    .Header {
+        padding: 130px 0 0;
+    }
+    .Header-Content {
+        width: 735px;
+    }
+    .Header-Inner {
+        flex-direction: row;
+    }
+    .Header-Btn {
+        margin-bottom: 0;
+    }
+    /*.Header-Image {
+        width: 100%;
+    }*/
+}
+
+@media (min-width: 1440px) {
+
+}
+
+@media (min-width: 1646px) {
+   /* .Header-Image {
+        width: 100%;
+    }*/
+}
+
+@media (min-width: 1920px) {
+    .Decor {
+        display: block;
+    }
+}
