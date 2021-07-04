@@ -117,6 +117,51 @@ include('./Components/NavBar.php')
     </div>
 </section>
 
+<section class="Person">
+    <div class="Container">
+        <h2 class="Title Title--h2 Person-Title">
+            Ты подходишь нам, если ты…
+        </h2>
+        <div class="Person-Table">
+            <div class="Person-Row">
+                <div class="Text Person-RowTitle">
+                    Интересная личность
+                </div>
+                <div class="Text Person-RowText">
+                    Вебкам - это не просто эротическое шоу. <br>Ты должна влюблять.
+                </div>
+            </div>
+            <div class="Person-Row">
+                <div class="Text Person-RowTitle">
+                    Амбициозна
+                </div>
+                <div class="Text Person-RowText">
+                    У нас высокая планка. Мы неоднократно<br>
+                    выводили наших моделей в ТОП по всему миру.<br>
+                    Если ты тоже этого хочешь - нам по пути.
+                </div>
+            </div>
+            <div class="Person-Row">
+                <div class="Text Person-RowTitle">
+                    Неординарная
+                </div>
+                <div class="Text Person-RowText">
+                    Нестандартная внешность и куча<br>
+                    татуировок? Круто - это будет твоей фишкой.
+                </div>
+            </div>
+        </div>
+        <div class="Btn--centered">
+            <a href="/registration.php" class="Btn Btn--blue Person-Btn">
+                Я подхожу
+            </a>
+        </div>
+        <div class="Decor Person-Decor">
+            Будь смелее!
+        </div>
+    </div>
+</section>
+
 
 <script src="scripts/script.js"></script>
 </body>

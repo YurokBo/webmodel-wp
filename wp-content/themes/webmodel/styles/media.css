@@ -22,6 +22,9 @@
     .About-Btn {
         padding: 23px 61px 26px;
     }
+    .Person-Btn {
+        padding: 25px 105px 24px;
+    }
 
 }
 
@@ -50,6 +53,12 @@
         font-size: 35px;
         white-space: nowrap;
     }
+
+    .Person-RowText {
+        width: 800px;
+        font-size: 33px;
+    }
+
 }
 
 @media (min-width: 960px) {
@@ -121,11 +130,53 @@
         margin-bottom: 0;
     }
 
+    .Person-Title {
+        margin-bottom: 119px;
+    }
+    .Person-Row {
+        flex-direction: row;
+        height: 162px;
+    }
+    .Person-RowTitle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 435px;
+        margin-right: 60px;
+        margin-bottom: 0;
+        text-align: left;
+        position: relative;
+    }
+    .Person-RowTitle:before {
+        content: '';
+        position: absolute;
+        width: 3px;
+        height: 135px;
+        top: 50%;
+        right: 0;
+        transform: translate(0, -50%);
+        background-color: var(--color-text-main);
+    }
+    .Person-RowText {
+        text-align: left;
+    }
+
 }
 
 @media (min-width: 1440px) {
     .Steps-ImgBg {
         left: -380px;
+    }
+    .Person-Table {
+        width: 1367px;
+        margin: 0 auto 103px;
+    }
+    .Person-RowTitle {
+        margin-right: 89px;
+    }
+    .Person-RowText {
+        width: 800px;
+        font-size: 28px;
     }
 }
 

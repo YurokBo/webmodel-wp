@@ -145,3 +145,61 @@
     top: 480px;
 }
 
+
+/*  Person  */
+.Person {
+    padding: 100px 0 98px;
+}
+
+.Person-Title {
+    margin-bottom: 30px;
+}
+
+.Person-Table {
+    margin: 0 auto 103px;
+}
+
+.Person-Row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 44px;
+    padding: 20px 10px;
+    border: 3px solid var(--color-bg-main2);
+    border-radius: 10px;
+}
+
+.Person-Row:last-child {
+    margin-bottom: 0;
+}
+
+.Person-RowTitle {
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.Person-RowText {
+    text-align: center;
+    font-size: 24px;
+}
+
+.Person-Btn {
+    padding: 25px 61px 24px;
+}
+
+.Person-Decor {
+    top: 290px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
