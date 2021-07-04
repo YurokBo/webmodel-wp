@@ -26,12 +26,21 @@
         font-size: 61px;
     }
 
+    .Title--h2 {
+        font-size: 60px;
+    }
+
     .Btn {
         font-size: 33px;
     }
 
     .Header-Item {
         font-size: 35px;
+    }
+
+    .Steps-Text {
+        font-size: 35px;
+        white-space: nowrap;
     }
 }
 
@@ -52,6 +61,12 @@
     .Nav-ContentMobile {
         display: none;
     }
+
+    .Steps-List {
+        display: grid;
+        grid-template-columns: repeat(2, 370px);
+        grid-gap: 60px 40px;
+    }
 }
 
 @media (min-width: 1248px) {
@@ -71,19 +86,45 @@
         margin-bottom: 0;
     }
 
-    /*.Header-Image {
-        width: 100%;
-    }*/
+    .Steps-ImgBg {
+        display: block;
+        position: absolute;
+        z-index: -1;
+        top: 15px;
+        left: -535px;
+    }
+    .Steps-List {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 155px;
+        position: relative;
+    }
 }
 
 @media (min-width: 1440px) {
+    .Steps-ImgBg {
+        left: -380px;
+    }
+}
 
+@media (min-width: 1450px) {
+    .Steps-ImgBg {
+        left: -325px;
+    }
 }
 
 @media (min-width: 1646px) {
-    /* .Header-Image {
-         width: 100%;
-     }*/
+    .Steps-List {
+        justify-content: flex-start;
+    }
+    .Steps-ImgBg {
+        top: 20px;
+        left: -170px;
+    }
+    .Steps-Item {
+        margin-right: 140px;
+    }
 }
 
 @media (min-width: 1920px) {

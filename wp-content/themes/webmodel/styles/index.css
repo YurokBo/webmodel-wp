@@ -53,5 +53,69 @@
 
 .Header-Decor {
     top: 280px;
-    right: -465px;
+}
+
+
+/*  Steps  */
+.Steps {
+    padding: 100px 0 103px;
+}
+
+.Steps-Title {
+    margin-bottom: 80px;
+}
+
+.Steps-List {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 60px 40px;
+    justify-content: center;
+    margin-bottom: 155px;
+    position: relative;
+}
+
+.Steps-ImgBg {
+    display: none;
+}
+
+.Animation {
+    stroke-dasharray:10 20;
+    stroke-dashoffset:600px;
+    animation: animdash 5s forwards infinite;
+}
+@keyframes animdash {
+    0% {
+        stroke-dashoffset: 600px;
+    }
+    50% {
+        stroke-dashoffset: 200px;
+    }
+
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+.Steps-Item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Steps-Img {
+    margin-bottom: 10px;
+}
+
+.Steps-Text {
+    font-size: 26px;
+    line-height: 1.20;
+}
+
+.Steps-Btn {
+    padding: 24px 96px;
+}
+
+.Steps-Decor {
+    top: 320px;
+
 }
