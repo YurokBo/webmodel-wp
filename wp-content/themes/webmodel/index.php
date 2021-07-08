@@ -162,6 +162,51 @@ include('./Components/NavBar.php')
     </div>
 </section>
 
+<section class="Description">
+    <div class="Container">
+        <div class="Description-List">
+            <div class="Description-Item">
+                <img src="./images/icon-location.png" alt="icons" class="Description-ItemImg">
+                <div class="Text Description-ItemTitle">
+                    Свобода
+                </div>
+                <div class="Text Description-ItemText">
+                    Дома, на отдыхе,
+                    в путешествии.
+                    Только ты решаешь сколько и где ты будешь работать.
+                </div>
+            </div>
+            <div class="Description-Item">
+                <img src="./images/icon-testimonials.png" alt="icons" class="Description-ItemImg">
+                <div class="Text Description-ItemTitle">
+                    Персональный менеджер
+                </div>
+                <div class="Text Description-ItemText">
+                    Опытный менеджер проведет с тобой полноценное обучение. От базовых правил
+                    и интерфейса сайтов
+                    до всех тонкостей
+                    и секретов ведения трансляции.
+                </div>
+            </div>
+            <div class="Description-Item">
+                <img src="./images/icon-actress.png" alt="icons" class="Description-ItemImg">
+                <div class="Text Description-ItemTitle">
+                    Тебе решать
+                </div>
+                <div class="Text Description-ItemText">
+                    «Флирт» или «Эротика». Ты сама решаешь,как себя позиционировать и в какой категории работать.
+                    Главное — найти себя.
+                </div>
+            </div>
+        </div>
+        <div class="Btn--centered">
+            <a href="/registration.php" class="Btn Btn--pink Description-Btn">
+                Хочу попробовать
+            </a>
+        </div>
+    </div>
+</section>
+
 
 <script src="scripts/script.js"></script>
 </body>
