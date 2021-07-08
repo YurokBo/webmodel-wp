@@ -1,5 +1,7 @@
 @media (min-width: 460px) {
-
+    .Description-Btn {
+        padding: 24px 34px 25px;
+    }
 }
 
 @media (min-width: 590px) {
@@ -83,6 +85,13 @@
         display: grid;
         grid-template-columns: repeat(2, 370px);
         grid-gap: 60px 40px;
+    }
+}
+
+@media (min-width: 970px) {
+    .Description-Item {
+        height: 679px;
+        margin: 0 9.4px 14px;
     }
 }
 
@@ -177,6 +186,13 @@
     .Person-RowText {
         width: 800px;
         font-size: 28px;
+    }
+
+    .Description-List {
+        justify-content: space-around;
+    }
+    .Description-Item {
+        margin-bottom: 0;
     }
 }
 
