@@ -49,9 +49,6 @@
     padding: 16px 22px 18px;
 }
 
-.Header-Decor {
-    top: 280px;
-}
 
 
 /*  Steps  */
@@ -108,10 +105,6 @@
     padding: 24px 96px;
 }
 
-.Steps-Decor {
-    top: 320px;
-}
-
 
 /*  About  */
 .About {
@@ -139,10 +132,6 @@
 .About-Btn {
     padding: 23px 21px 26px;
     text-align: center;
-}
-
-.About-Decor {
-    top: 480px;
 }
 
 
@@ -186,10 +175,6 @@
 
 .Person-Btn {
     padding: 25px 61px 24px;
-}
-
-.Person-Decor {
-    top: 290px;
 }
 
 
@@ -237,6 +222,31 @@
     padding: 24px 22px 25px;
 }
 
+
+/*  History  */
+.History {
+    padding: 100px 0 213px;
+}
+
+.History-Title {
+    margin-bottom: 156px;
+}
+
+.History-Content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.History-SliderBox {
+    position: relative;
+    width: 700px;
+}
+
+.History-TextBox {
+    width: 719px;
+
+}
 
 
 

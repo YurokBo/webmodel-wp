@@ -204,6 +204,53 @@ include('./Components/NavBar.php')
                 Хочу попробовать
             </a>
         </div>
+        <div class="Decor Description-Decor">
+            Будь смелее!
+        </div>
+    </div>
+</section>
+
+<section class="History">
+    <div class="Container">
+        <h2 class="Title Title--h2 History-Title">
+            Fresh Studio успешно работает уже 5 лет
+        </h2>
+        <div class="History-Content">
+            <div class="History-SliderBox">
+                <div class="History-Slider">
+                    <div class="History-SliderItem">
+                        <img
+                                src="images/sertificate-slide-1.png"
+                                class="History-SliderImg"
+                                alt="slide-1">
+                    </div>
+
+                    <div class="History-SliderItem">
+                        <img
+                                src="images/sertificate-slide-2.png"
+                                class="History-SliderImg"
+                                alt="slide-2">
+                    </div>
+
+                </div>
+                <div class="History-SliderBtns">
+                    <button class="prev" onclick="minusSlide()">&#10094;</button>
+                    <button class="next" onclick="plusSlide()">&#10095;</button>
+                </div>
+
+            </div>
+            <div class="History-TextBox">
+                <p class="Text History-Text">
+                    За 5 лет работы нам уже доверились тысячи девушек, лично убедились
+                    в соблюдении конфиденциальности их личных данных и документов, а работа
+                    в сфере в помогла заработать им сотни тысяч долларов.
+                </p>
+                <p class="Text History-Text">
+                    Мы постоянно развиваемся, мониторим новые решения и стремимся дать максимально комфортные условия
+                    для работы наших моделей.
+                </p>
+            </div>
+        </div>
     </div>
 </section>
 

@@ -219,4 +219,24 @@
     .Decor {
         display: block;
     }
+
+    .Header-Decor {
+        top: 280px;
+    }
+
+    .About-Decor {
+        top: 480px;
+    }
+
+    .Steps-Decor {
+        top: 320px;
+    }
+
+    .Person-Decor {
+        top: 290px;
+    }
+
+    .Description-Decor {
+        top: 50px;
+    }
 }
