@@ -234,12 +234,12 @@ include('./Components/NavBar.php')
 
                 </div>
                 <!--<div class="History-SliderBtns">-->
-                    <button class="History-SliderBtn History-SliderBtn--prev" onclick="minusSlide()">
-                        <img src="images/arrow-prev.png" alt="arrow">
-                    </button>
-                    <button class="History-SliderBtn History-SliderBtn--next" onclick="plusSlide()">
-                        <img src="images/arrow-next.png" alt="arrow">
-                    </button>
+                <button class="History-SliderBtn History-SliderBtn--prev" onclick="minusSlide()">
+                    <img src="images/arrow-prev.png" alt="arrow">
+                </button>
+                <button class="History-SliderBtn History-SliderBtn--next" onclick="plusSlide()">
+                    <img src="images/arrow-next.png" alt="arrow">
+                </button>
                 <!--</div>-->
 
             </div>
@@ -257,6 +257,42 @@ include('./Components/NavBar.php')
         </div>
         <div class="Decor History-Decor">
             Будь смелее!
+        </div>
+    </div>
+</section>
+
+<section class="Reviews">
+    <div class="Container">
+        <h2 class="Title Title--h2 Reviews-Title">
+            отзывы
+        </h2>
+
+        <div class="Container-SliderBox">
+            <div class="Container-Slider">
+                <div class="Container-SliderItem">
+                    <img
+                            src="images/sertificate-slide-1.png"
+                            class="History-SliderImg"
+                            alt="slide-1">
+                </div>
+
+                <div class="Container-SliderItem">
+                    <img
+                            src="images/sertificate-slide-2.png"
+                            class="History-SliderImg"
+                            alt="slide-2">
+                </div>
+
+            </div>
+            <!--<div class="History-SliderBtns">-->
+            <button class="Container-SliderBtn Container-SliderBtn--prev" onclick="minusSlide()">
+                <img src="images/arrow-prev.png" alt="arrow">
+            </button>
+            <button class="Container-SliderBtn Container-SliderBtn--next" onclick="plusSlide()">
+                <img src="images/arrow-next.png" alt="arrow">
+            </button>
+            <!--</div>-->
+
         </div>
     </div>
 </section>
