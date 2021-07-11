@@ -225,27 +225,28 @@
 
 /*  History  */
 .History {
-    padding: 100px 0 213px;
+    padding: 70px 0;
 }
 
 .History-Title {
-    margin-bottom: 156px;
+    margin-bottom: 70px;
 }
 
 .History-Content {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
 
 .History-SliderBox {
     position: relative;
-    width: 700px;
+    width: 100%;
+    margin-bottom: 70px;
 }
 
 .History-TextBox {
-    width: 719px;
-
+    width: 100%;
 }
 
 

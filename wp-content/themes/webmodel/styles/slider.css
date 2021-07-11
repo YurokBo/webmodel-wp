@@ -2,35 +2,26 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 555px;
-    width: 100%;
-    height: 374px;
+    max-width: 100%;
+    width: 80%;
     margin: 0 auto;
 }
 
 /* Кнопки вперед и назад */
-.History-Slider .prev, .History-Slider .next {
+.History-SliderBtn {
+    width: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
     cursor: pointer;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
 }
 
-.History-Slider .next {
+.History-SliderBtn--next {
     right: 0;
-    border-radius: 3px 0 0 3px;
-}
-
-/* При наведении на кнопки добавляем фон кнопок */
-.History-Slider .prev:hover,
-.History-Slider .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Анимация слайдов */
-.History-Slider .History-SliderItem {
+.History-SliderItem {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
@@ -53,10 +44,4 @@
     to {
         opacity: 1
     }
-}
-
-.History-SliderBtns {
-    position: absolute;
-    width: 100%;
-    top: 50%;
 }

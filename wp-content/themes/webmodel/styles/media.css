@@ -24,6 +24,7 @@
     .About-Btn {
         padding: 23px 61px 26px;
     }
+
     .Person-Btn {
         padding: 25px 105px 24px;
     }
@@ -67,16 +68,20 @@
     .Nav-Content {
         justify-content: flex-start;
     }
+
     .Nav-List {
         display: flex;
     }
+
     .Nav-Item {
         margin-right: 50px;
         margin-bottom: 0;
     }
+
     .Nav-Btn {
         display: none;
     }
+
     .Nav-ContentMobile {
         display: none;
     }
@@ -119,6 +124,7 @@
         top: 15px;
         left: -535px;
     }
+
     .Steps-List {
         display: flex;
         align-items: center;
@@ -130,9 +136,11 @@
     .About-Title {
         margin-bottom: 18px;
     }
+
     .About-Inner {
         flex-direction: row;
     }
+
     .About-Content {
         width: 690px;
         margin-right: 201px;
@@ -142,10 +150,12 @@
     .Person-Title {
         margin-bottom: 119px;
     }
+
     .Person-Row {
         flex-direction: row;
         height: 162px;
     }
+
     .Person-RowTitle {
         display: flex;
         justify-content: center;
@@ -156,6 +166,7 @@
         text-align: left;
         position: relative;
     }
+
     .Person-RowTitle:before {
         content: '';
         position: absolute;
@@ -166,8 +177,32 @@
         transform: translate(0, -50%);
         background-color: var(--color-text-main);
     }
+
     .Person-RowText {
         text-align: left;
+    }
+
+    .History {
+        padding: 100px 0 213px;
+    }
+    .History-Title {
+        margin-bottom: 156px;
+    }
+    .History-Content {
+        flex-direction: row;
+    }
+    .History-SliderBox {
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+    .History-Slider {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 555px;
+        width: 100%;
+        height: 374px;
+        margin: 0 auto;
     }
 
 }
@@ -176,13 +211,16 @@
     .Steps-ImgBg {
         left: -380px;
     }
+
     .Person-Table {
         width: 1367px;
         margin: 0 auto 103px;
     }
+
     .Person-RowTitle {
         margin-right: 89px;
     }
+
     .Person-RowText {
         width: 800px;
         font-size: 28px;
@@ -191,6 +229,7 @@
     .Description-List {
         justify-content: space-around;
     }
+
     .Description-Item {
         margin-bottom: 0;
     }
@@ -200,16 +239,26 @@
     .Steps-ImgBg {
         left: -325px;
     }
+
+    .History-SliderBox {
+        width: 700px;
+    }
+
+    .History-TextBox {
+        width: 719px;
+    }
 }
 
 @media (min-width: 1646px) {
     .Steps-List {
         justify-content: flex-start;
     }
+
     .Steps-ImgBg {
         top: 20px;
         left: -170px;
     }
+
     .Steps-Item {
         margin-right: 140px;
     }
@@ -238,5 +287,9 @@
 
     .Description-Decor {
         top: 50px;
+    }
+
+    .History-Decor {
+        top: -90px;
     }
 }

@@ -233,10 +233,14 @@ include('./Components/NavBar.php')
                     </div>
 
                 </div>
-                <div class="History-SliderBtns">
-                    <button class="prev" onclick="minusSlide()">&#10094;</button>
-                    <button class="next" onclick="plusSlide()">&#10095;</button>
-                </div>
+                <!--<div class="History-SliderBtns">-->
+                    <button class="History-SliderBtn History-SliderBtn--prev" onclick="minusSlide()">
+                        <img src="images/arrow-prev.png" alt="arrow">
+                    </button>
+                    <button class="History-SliderBtn History-SliderBtn--next" onclick="plusSlide()">
+                        <img src="images/arrow-next.png" alt="arrow">
+                    </button>
+                <!--</div>-->
 
             </div>
             <div class="History-TextBox">
@@ -250,6 +254,9 @@ include('./Components/NavBar.php')
                     для работы наших моделей.
                 </p>
             </div>
+        </div>
+        <div class="Decor History-Decor">
+            Будь смелее!
         </div>
     </div>
 </section>
