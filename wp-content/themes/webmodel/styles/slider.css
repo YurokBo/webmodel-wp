@@ -10,18 +10,22 @@
 /* Кнопки вперед и назад */
 .History-SliderBtn {
     width: 30px;
+}
+
+.SliderBtn {
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
     cursor: pointer;
 }
 
-.History-SliderBtn--next {
+.SliderBtn--next {
     right: 0;
 }
 
 /* Анимация слайдов */
-.History-SliderItem {
+.History-SliderItem,
+.Reviews-SliderItem {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
     animation-name: fade;

@@ -234,10 +234,10 @@ include('./Components/NavBar.php')
 
                 </div>
                 <!--<div class="History-SliderBtns">-->
-                <button class="History-SliderBtn History-SliderBtn--prev" onclick="minusSlide()">
+                <button class="SliderBtn History-SliderBtn History-SliderBtn--prev" onclick="minusSlide()">
                     <img src="images/arrow-prev.png" alt="arrow">
                 </button>
-                <button class="History-SliderBtn History-SliderBtn--next" onclick="plusSlide()">
+                <button class="SliderBtn History-SliderBtn History-SliderBtn--next SliderBtn--next" onclick="plusSlide()">
                     <img src="images/arrow-next.png" alt="arrow">
                 </button>
                 <!--</div>-->
@@ -267,28 +267,48 @@ include('./Components/NavBar.php')
             отзывы
         </h2>
 
-        <div class="Container-SliderBox">
-            <div class="Container-Slider">
-                <div class="Container-SliderItem">
-                    <img
-                            src="images/sertificate-slide-1.png"
-                            class="History-SliderImg"
-                            alt="slide-1">
+        <div class="Reviews-SliderBox">
+            <div class="Reviews-Slider">
+                <div class="Reviews-SliderItem">
+                    <img src="images/review-1.png" alt="" class="Reviews-SliderItemImg">
+                    <div class="Reviews-SliderItemTop">
+                        <div class="Reviews-SliderItemName">
+                            Анастасия, 23 года
+                        </div>
+                        <div class="Reviews-SliderItemSub">
+                            Заработала за месяц 100 тыс.руб
+                        </div>
+                    </div>
+                    <p class="Reviews-SliderItemText">
+                        На самом деле зрители у нас разные: кто-то — мимо проходящий, а кто-то в моих трансляциях
+                        ежедневно
+                        на протяжении очень долгого времени. Приятно, когда видишь знакомых зрителей, которые пишут
+                        добрые комментарии.
+                    </p>
                 </div>
 
-                <div class="Container-SliderItem">
-                    <img
-                            src="images/sertificate-slide-2.png"
-                            class="History-SliderImg"
-                            alt="slide-2">
+                <div class="Reviews-SliderItem">
+                    <img src="images/review-1.png" alt="" class="Reviews-SliderItemImg">
+                    <div class="Reviews-SliderItemTop">
+                        <div class="Reviews-SliderItemName">
+                            Елена, 25 года
+                        </div>
+                        <div class="Reviews-SliderItemSub">
+                            Заработала за месяц 200 тыс.руб
+                        </div>
+                    </div>
+                    <p class="Reviews-SliderItemText">
+                        На самом деле зрители у нас разные: кто-то — мимо проходящий, а кто-то в моих трансляциях
+                        ежедневно
+                        на протяжении очень долгого времени.
+                    </p>
                 </div>
-
             </div>
             <!--<div class="History-SliderBtns">-->
-            <button class="Container-SliderBtn Container-SliderBtn--prev" onclick="minusSlide()">
+            <button class="SliderBtn Reviews-SliderBtn--prev" onclick="minusSlideReview()">
                 <img src="images/arrow-prev.png" alt="arrow">
             </button>
-            <button class="Container-SliderBtn Container-SliderBtn--next" onclick="plusSlide()">
+            <button class="SliderBtn Reviews-SliderBtn--next SliderBtn--next" onclick="plusSlideReview()">
                 <img src="images/arrow-next.png" alt="arrow">
             </button>
             <!--</div>-->
