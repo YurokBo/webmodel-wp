@@ -252,63 +252,62 @@
 
 /*  Reviews  */
 .Reviews {
-    padding: 130px 0 221px;
+    padding: 70px 0;
 }
 
 .Reviews-Title {
-    margin-bottom: 130px;
+    margin-bottom: 70px;
 }
 
 .Reviews-SliderBox {
-    width: 1272px;
+    width: 100%;
     margin: 0 auto;
     position: relative;
 }
 
 .Reviews-Slider {
-    width: 1080px;
+    width: 85%;
     margin: 0 auto;
 }
 
 .Reviews-SliderItem {
-    height: 458px;
-    padding: 30px 91px 20px;
+    padding: 30px 15px 40px;
     background-color: var(--color-bg-main-light);
     border-radius: 10px;
-    position: relative;
 }
 
 .Reviews-SliderItemImg {
-    position: absolute;
-    width: 180px;
-    height: 180px;
+    width: 140px;
+    height: 140px;
+    margin-bottom: 20px;
     top: -60px;
     left: -46px;
     border-radius: 50%;
 }
 
 .Reviews-SliderItemTop {
-    padding-left: 98px;
     margin-bottom: 38px;
 }
 
 .Reviews-SliderItemName {
     margin-bottom: 9px;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .Reviews-SliderItemSub {
-    font-size: 40px;
+    font-size: 25px;
     color: var(--color-text-main2);
 }
 
 .Reviews-SliderItemText {
-    font-size: 30px;
+    font-size: 20px;
     color: var(--color-bg-main2);
 }
 
-
+.Reviews-SliderBtn {
+    width: 25px;
+}
 
 
 

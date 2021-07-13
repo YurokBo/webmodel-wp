@@ -305,10 +305,10 @@ include('./Components/NavBar.php')
                 </div>
             </div>
             <!--<div class="History-SliderBtns">-->
-            <button class="SliderBtn Reviews-SliderBtn--prev" onclick="minusSlideReview()">
+            <button class="SliderBtn Reviews-SliderBtn Reviews-SliderBtn--prev" onclick="minusSlideReview()">
                 <img src="images/arrow-prev.png" alt="arrow">
             </button>
-            <button class="SliderBtn Reviews-SliderBtn--next SliderBtn--next" onclick="plusSlideReview()">
+            <button class="SliderBtn Reviews-SliderBtn Reviews-SliderBtn--next SliderBtn--next" onclick="plusSlideReview()">
                 <img src="images/arrow-next.png" alt="arrow">
             </button>
             <!--</div>-->

@@ -89,7 +89,53 @@
     .Steps-List {
         display: grid;
         grid-template-columns: repeat(2, 370px);
-        grid-gap: 60px 40px;
+    }
+
+    .Reviews {
+        padding: 130px 0 221px;
+    }
+    .Reviews-Title {
+        margin-bottom: 130px;
+    }
+    .Reviews-SliderBox {
+        width: 940px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .Reviews-Slider {
+        width: 840px;
+    }
+    .Reviews-SliderItem {
+        padding: 30px 31px 40px;
+        background-color: var(--color-bg-main-light);
+        border-radius: 10px;
+        position: relative;
+    }
+    .Reviews-SliderItemTop {
+        padding-left: 108px;
+        margin-bottom: 38px;
+    }
+    .Reviews-SliderItemImg {
+        width: 180px;
+        height: 180px;
+        position: absolute;
+        margin-bottom: 0;
+    }
+    .Reviews-SliderItemName {
+        margin-bottom: 9px;
+        font-weight: 700;
+        font-size: 30px;
+    }
+    .Reviews-SliderItemSub {
+        font-size: 40px;
+        color: var(--color-text-main2);
+    }
+    .Reviews-SliderItemText {
+        font-size: 30px;
+        color: var(--color-bg-main2);
+    }
+    .Reviews-SliderBtn {
+        width: 50px;
     }
 }
 
@@ -232,6 +278,19 @@
 
     .Description-Item {
         margin-bottom: 0;
+    }
+
+    .Reviews-SliderBox {
+        width: 1272px;
+    }
+
+    .Reviews-SliderItem {
+        height: 458px;
+        padding: 30px 91px 20px;
+    }
+    .Reviews-SliderItemTop {
+        padding-left: 98px;
+        margin-bottom: 38px;
     }
 }
 
