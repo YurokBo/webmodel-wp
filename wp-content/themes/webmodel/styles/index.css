@@ -310,4 +310,49 @@
 }
 
 
+/*  NavFooter  */
+.NavFooter {
+    padding: 70px 0;
+    background-color: var(--color-bg-footer);
+}
+
+.NavFooter-Container {
+    max-width: 996px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.NavFooter-List {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--color-text-main2);
+    text-transform: uppercase;
+}
+
+.NavFooter-Item {
+    margin-bottom: 30px;
+}
+.NavFooter-Item:last-child {
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

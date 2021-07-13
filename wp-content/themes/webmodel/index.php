@@ -317,6 +317,10 @@ include('./Components/NavBar.php')
     </div>
 </section>
 
+<?php
+include('./Components/NavFooter.php')
+?>
+
 
 <script src="scripts/script.js"></script>
 </body>

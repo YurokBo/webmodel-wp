@@ -146,6 +146,33 @@
     }
 }
 
+@media (min-width: 1010px) {
+    .NavFooter {
+        padding: 80px 0 92px;
+    }
+    .NavFooter-List {
+        flex-direction: row;
+        font-size: 30px;
+    }
+    .NavFooter-Item {
+        position: relative;
+        margin-bottom: 0;
+    }
+    .NavFooter-Item:after {
+        position: absolute;
+        content: '';
+        width: 2px;
+        height: 29px;
+        top: 50%;
+        right: -17px;
+        transform: translate(0,-43%);
+        background-color: var(--color-text-main2);
+    }
+    .NavFooter-Item:last-child:after {
+        display: none;
+    }
+}
+
 @media (min-width: 1248px) {
     .Header {
         padding: 130px 0 0;
