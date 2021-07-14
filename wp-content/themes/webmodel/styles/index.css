@@ -340,12 +340,26 @@
     margin-bottom: 0;
 }
 
+/*  Contacts  */
+.Contacts {
+    padding: 249px 0 70px;
+}
 
+.Contacts-Title {
+    margin-bottom: 109px;
+}
 
+.Contacts-ContactsTitle {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: var(--color-bg-main);
+}
 
-
-
-
+.Contact {
+    font-size: 35px;
+}
 
 
 
