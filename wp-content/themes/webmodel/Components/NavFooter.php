@@ -8,9 +8,6 @@
                 <a href="../knowledge.php" class="NavFooter-Link">База знаний</a>
             </li>
             <li class="NavFooter-Item">
-                <a href="../contacts.php" class="NavFooter-Link">Онлайн поддержка</a>
-            </li>
-            <li class="NavFooter-Item">
                 <a href="../contacts.php" class="NavFooter-Link">контакты</a>
             </li>
         </ul>

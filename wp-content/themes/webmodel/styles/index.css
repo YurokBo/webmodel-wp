@@ -317,7 +317,7 @@
 }
 
 .NavFooter-Container {
-    max-width: 996px;
+    max-width: 615px;
     width: 100%;
     margin: 0 auto;
 }
@@ -379,9 +379,29 @@
 }
 
 
+/*  Questions  */
+.Questions {
+    padding: 249px 0 98px;
+}
 
+.Questions-Title {
+    margin-bottom: 82px;
+}
 
+.Questions-List {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.Questions-Item {
+    max-width: 795px;
+    width: 100%;
+    padding: 26px 24px 26px 19px;
+    border: 3px solid var(--color-bg-main2);
+    border-radius: 10px;
+}
 
 
 

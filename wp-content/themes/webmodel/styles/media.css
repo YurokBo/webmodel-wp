@@ -403,4 +403,12 @@
     .History-Decor {
         top: -90px;
     }
+
+    .Reviews-DecorTop {
+        top: -165px;
+    }
+    .Reviews-DecorBottom {
+        top: 610px;
+        right: -377px;
+    }
 }

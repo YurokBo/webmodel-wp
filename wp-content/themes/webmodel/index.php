@@ -302,6 +302,12 @@ include('./Components/Head.php')
             <!--</div>-->
 
         </div>
+        <div class="Decor Reviews-DecorTop">
+            Будь смелее!
+        </div>
+        <div class="Decor Reviews-DecorBottom">
+            ь смелее!
+        </div>
     </div>
 </section>
 
