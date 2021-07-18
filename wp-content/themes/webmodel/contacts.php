@@ -17,7 +17,10 @@ include('./Components/Head.php')
                         <div class="Contact Contacts-ContactsAddress">м. Маяковская, Невский пр.</div>
                     </div>
                 </div>
-                <div class="Contacts-Map"></div>
+                <div class="Contacts-Map">
+                    <iframe class="Contacts-Map" src="https://yandex.ru/map-widget/v1/?um=constructor%3A9b948d0e33881517540e3e5d9eac834a013001d09e89298759e24078fa552139&amp;source=constructor"
+                           frameborder="0"></iframe>
+                </div>
             </div>
         </div>
     </section>

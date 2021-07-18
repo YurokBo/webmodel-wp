@@ -342,7 +342,18 @@
 
 /*  Contacts  */
 .Contacts {
-    padding: 249px 0 70px;
+    padding: 70px 0;
+}
+
+.Contacts-Content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Contacts-Contacts {
+    margin-bottom: 40px;
 }
 
 .Contacts-Title {
@@ -352,15 +363,20 @@
 .Contacts-ContactsTitle {
     margin-bottom: 20px;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 28px;
     text-transform: uppercase;
     color: var(--color-bg-main);
 }
 
 .Contact {
-    font-size: 35px;
+    font-size: 24px;
 }
 
+.Contacts-Map {
+    max-width: 290px;
+    width: 100%;
+    height: 290px;
+}
 
 
 

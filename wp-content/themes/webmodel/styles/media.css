@@ -29,6 +29,10 @@
         padding: 25px 105px 24px;
     }
 
+    .Contacts-Map {
+        max-width: 560px;
+        height: 490px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -60,6 +64,13 @@
     .Person-RowText {
         width: 800px;
         font-size: 33px;
+    }
+
+    .Contact {
+        font-size: 35px;
+    }
+    .Contacts-ContactsTitle {
+        font-size: 40px;
     }
 
 }
@@ -136,6 +147,11 @@
     }
     .Reviews-SliderBtn {
         width: 50px;
+    }
+
+    .Contacts-Map {
+        max-width: 876px;
+        height: 590px;
     }
 }
 
@@ -278,6 +294,15 @@
         margin: 0 auto;
     }
 
+    .Contacts {
+        padding: 249px 0 70px;
+    }
+    .Contacts-Content {
+        flex-direction: row;
+    }
+    .Contacts-Contacts {
+        margin-bottom: 0;
+    }
 }
 
 @media (min-width: 1440px) {
