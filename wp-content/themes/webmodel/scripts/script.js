@@ -20,6 +20,21 @@ function closeMobileMenu(e, menu) {
     menu.classList.remove('Nav-ContentMobile--active')
 }
 
+let btn = document.querySelectorAll('.Questions-ItemQuestion')
+
+for (let i = 0; i < btn.length; i++) {
+    btn[i].addEventListener("click", function (e) {
+            this.classList.toggle("Questions-ItemQuestion--active")
+            let content = this.nextElementSibling;
+            if (content.style.maxHeight) {
+                content.style.maxHeight = null;
+            } else {
+                content.style.maxHeight = content.scrollHeight + "px";
+            }
+        }
+    )
+}
+
 /* Индекс слайда по умолчанию */
 let slideIndex = 1;
 showSlides(slideIndex);
@@ -29,6 +44,7 @@ showSlidesReview(slideIndex);
 function plusSlide() {
     showSlides(slideIndex += 1);
 }
+
 function plusSlideReview() {
     showSlidesReview(slideIndex += 1);
 }
@@ -37,6 +53,7 @@ function plusSlideReview() {
 function minusSlide() {
     showSlides(slideIndex -= 1);
 }
+
 function minusSlideReview() {
     showSlidesReview(slideIndex -= 1);
 }
@@ -67,6 +84,7 @@ function showSlides(n) {
 
     slides[slideIndex - 1].style.display = "block";
 }
+
 function showSlidesReview(n) {
     let i = 0;
     let slidesReviews = document.querySelectorAll('.Reviews-SliderItem');
@@ -83,3 +101,5 @@ function showSlidesReview(n) {
 
     slidesReviews[slideIndex - 1].style.display = "block";
 }
+
+

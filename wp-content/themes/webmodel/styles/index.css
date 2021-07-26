@@ -50,7 +50,6 @@
 }
 
 
-
 /*  Steps  */
 .Steps {
     padding: 100px 0 103px;
@@ -74,10 +73,11 @@
 }
 
 .Animation {
-    stroke-dasharray:10 20;
-    stroke-dashoffset:600px;
+    stroke-dasharray: 10 20;
+    stroke-dashoffset: 600px;
     animation: animdash 5s forwards infinite;
 }
+
 @keyframes animdash {
     0% {
         stroke-dashoffset: 600px;
@@ -336,6 +336,7 @@
 .NavFooter-Item {
     margin-bottom: 30px;
 }
+
 .NavFooter-Item:last-child {
     margin-bottom: 0;
 }
@@ -392,17 +393,74 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .Questions-Item {
     max-width: 795px;
     width: 100%;
+    margin-bottom: 40px;
     padding: 26px 24px 26px 19px;
     border: 3px solid var(--color-bg-main2);
     border-radius: 10px;
 }
+.Questions-ItemQuestion {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
 
+.Questions-ItemQuestionBox {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 1.2;
+}
 
+.Questions-ItemIcon {
+    margin-right: 16px;
+}
 
+.Questions-ItemArrow {
+    width: 32px;
+    margin-top: 17px;
+    transition: .3s all;
+}
 
+.Questions-ItemQuestion--active {
+    margin-bottom: 33px;
+}
+
+.Questions-ItemQuestion--active .Questions-ItemArrow {
+    transform: rotateZ(-90deg);
+}
+
+.Questions-ItemAnswer {
+    /*margin-top: 33px;*/
+    max-height: 0;
+    overflow-y: hidden;
+    transition: max-height .1s;
+    font-size: 35px;
+    line-height: 1.2;
+}
+
+.Questions-Form {
+    max-width: 809px;
+    width: 100%;
+    /*margin: 0 auto;*/
+}
+
+.Questions-FormTitle {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 1.10;
+    color: var(--color-bg-main2);
+}
+
+.Questions-FormInput {
+    padding: 33px;
+}
