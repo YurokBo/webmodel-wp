@@ -73,6 +73,39 @@
         font-size: 40px;
     }
 
+    .Questions-Item {
+        max-width: 795px;
+        margin-bottom: 40px;
+        padding: 26px 24px 26px 19px;
+    }
+    .Questions-ItemQuestionBox {
+        align-items: center;
+        font-size: 35px;
+    }
+    .Questions-ItemIcon {
+        margin-right: 16px;
+        width: 68px;
+    }
+    .Questions-ItemArrow {
+        width: 32px;
+        margin-top: 17px;
+    }
+    .Questions-ItemAnswer {
+        font-size: 35px;
+    }
+    .Questions-FormTitle {
+        font-size: 35px;
+    }
+    .Questions-FormInput {
+        font-size: 30px;
+    }
+    .Questions-FormInput::placeholder {
+        font-size: 30px;
+    }
+    .Questions-FormBtn {
+        font-size: 35px;
+    }
+
 }
 
 @media (min-width: 960px) {
@@ -152,6 +185,17 @@
     .Contacts-Map {
         max-width: 876px;
         height: 590px;
+    }
+
+    .Questions-FormInputs {
+        flex-direction: row;
+    }
+    .Questions-FormInput {
+        margin-right: 35px;
+        margin-bottom: 0;
+    }
+    .Questions-FormInput:last-child {
+        margin-right: 0;
     }
 }
 
@@ -358,6 +402,11 @@
     .History-TextBox {
         width: 719px;
     }
+
+    .Questions-List {
+        justify-content: space-between;
+    }
+
 }
 
 @media (min-width: 1646px) {
@@ -372,6 +421,10 @@
 
     .Steps-Item {
         margin-right: 140px;
+    }
+
+    .Questions-Form {
+        margin: 0 ;
     }
 }
 

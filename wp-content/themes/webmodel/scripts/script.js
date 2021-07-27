@@ -102,4 +102,14 @@ function showSlidesReview(n) {
     slidesReviews[slideIndex - 1].style.display = "block";
 }
 
+//E-mail Ajax Send
+document.querySelector("form").submit(function (e) { //Change
+    e.preventDefault();
+    this.ajax({
+        type: "POST",
+        url: "mail.php", //Change
+        data: this.serialize()
+    }).done();
+    return false;
+});
 

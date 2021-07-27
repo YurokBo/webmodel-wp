@@ -161,20 +161,28 @@ include('./Components/Head.php')
             <form class="Questions-Form">
                 <div class="Questions-FormTitle">
                     <span>Остались вопросы?</span>
-                    <span>Пиши нам в мессенджеры или заполни форму.</span>
-                    <span>Мы свяжемся с тобой в течение дня :)</span>
+                    <span>Заполни форму и мы свяжемся с тобой <br> в течение дня</span>
                 </div>
                 <div class="Questions-FormInputs">
+
+                    <!-- Hidden Required Fields -->
+                    <input type="hidden" name="project_name" value="webmodel.ru">
+                    <input type="hidden" name="admin_email" value="webmodel@gmail.com">
+                    <input type="hidden" name="form_subject" value="Заявка со страницы вопросов">
+                    <!-- END Hidden Required Fields -->
+
                     <input
                             class="Input Input--blue Questions-FormInput"
                             type="text"
                             placeholder="Твоё имя"
+                            autocomplete="off"
                             required
                     >
                     <input
                             class="Input Input--blue Questions-FormInput"
                             type="text"
                             placeholder="+7 (999) 999-99-99"
+                            autocomplete="off"
                             required
                     >
                 </div>
