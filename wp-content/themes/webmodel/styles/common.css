@@ -144,3 +144,10 @@ input {
 .Input--pink {
     border: 3px solid var(--color-bg-main);
 }
+
+.Text--blue {
+    color: var(--color-bg-main2);
+}
+.Text--pink {
+    color: var(--color-bg-main);
+}
