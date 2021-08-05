@@ -519,13 +519,84 @@
     margin-bottom: 100px;
 }
 
+.Registration-Form {
+    max-width: 825px;
+    width: 100%;
+    margin: 0 auto;
+}
 
+.Registration-FormTop {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
 
+.Registration-FormTitle {
+    margin-bottom: 60px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 1.2;
+}
 
+.Registration-FormInputs {
+    display: flex;
+    align-items: center;
+}
 
+.Registration-FormInputs .Registration-FormInput {
+    width: 255px;
+    margin-right: 73px;
+}
 
+.Registration-FormInput {
+    width: 255px;
+    padding: 15px 20px 17px 50px;
+   /* margin-right: 73px;*/
+}
 
+.Registration-FormInputs {
+    margin-bottom: 40px;
+}
 
+.Registration-FormInputs .Registration-FormInput:last-child {
+    width: 495px;
+    margin-right: 0;
+}
+
+.Input {
+    font-size: 35px;
+    line-height: 1.2;
+    color: var(--color-text-main);
+}
+
+.Input::placeholder {
+    font-size: 35px;
+    line-height: 1.2;
+    color: var(--color-text-placeholder);
+}
+
+.Registration-FormTextarea {
+    padding: 15px 20px 17px 50px;
+    resize: none;
+    height: 207px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 1.2;
+    color: var(--color-text-main);
+    border-radius: 10px;
+}
+.Registration-FormTextarea::placeholder {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 1.2;
+    color: var(--color-text-placeholder);
+}
+
+.Input--post {
+    width: 100%;
+}
 
 
 
