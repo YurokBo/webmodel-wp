@@ -23,12 +23,37 @@ include('./Components/Head.php')
                             autocomplete="off"
                             required
                     >
-                    <select name="language">
-                        <option disabled selected>Уровень английского</option>
-                        <option value="first">начальный</option>
-                        <option value="second">средний</option>
-                        <option value="third">профессиональный</option>
-                    </select>
+<!--                    <select name="language">-->
+<!--                        <option disabled selected>Уровень английского</option>-->
+<!--                        <option value="first">начальный</option>-->
+<!--                        <option value="second">средний</option>-->
+<!--                        <option value="third">профессиональный</option>-->
+<!--                    </select>-->
+                    <div class="dropdown">
+                        <div class="dropdown__value">JavaScript</div>
+                        <ul class="dropdown__list">
+                            <li class="dropdown__item">
+                                <a href="" class="dropdown__link">
+                                    JavaScript
+                                </a>
+                            </li>
+                            <li class="dropdown__item">
+                                <a href="" class="dropdown__link">
+                                    PHP
+                                </a>
+                            </li>
+                            <li class="dropdown__item">
+                                <a href="" class="dropdown__link">
+                                    Python
+                                </a>
+                            </li>
+                            <li class="dropdown__item">
+                                <a href="" class="dropdown__link">
+                                    Fortran
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
                 <textarea placeholder="О себе"
                           autocomplete="off"
@@ -43,8 +68,9 @@ include('./Components/Head.php')
                             class="FileInput"
                     >
                     <label for="file"
-                    class="Input--blue Registration-FormInput">
+                    class="Input--blue Registration-FormLabel">
                         Ваше фото
+                        <img src="images/arrow-download.svg" alt="arrow" class="Registration-FormLabelImg">
                     </label>
                 </div>
             </div>
@@ -74,7 +100,13 @@ include('./Components/Head.php')
                         required
                 >
             </div>
+            <button type="submit" class="Btn Btn--pink Btn--centered Registration-FormBtn">
+                ОТПРАВИТЬ
+            </button>
         </form>
+        <p class="Registration-Text">
+            Нажимая «Отправить», Вы соглашаетесь с обработкой персональных данных
+        </p>
     </div>
 </section>
 
