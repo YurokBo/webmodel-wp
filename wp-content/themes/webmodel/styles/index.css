@@ -555,6 +555,44 @@
     font-weight: 600;
 }
 
+.Knowledge-SubTitle {
+    margin-bottom: 48px;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--color-text-sub);
+    position: relative;
+}
+
+.Knowledge-SubTitle:before {
+    content: '';
+    position: absolute;
+    width: 55%;
+    height: 2px;
+    background-color: var(--color-bg-main-light);
+    left: 50%;
+    bottom: -24px;
+    transform: translate(-50%, 0);
+}
+
+.Knowledge-Content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Knowledge-ContentImg {
+    margin: 0 auto 40px;
+}
+
+.Knowledge-ContentText {
+    font-weight: 700;
+    line-height: 1.4;
+    color: var(--color-text-main3);
+}
+
 
 /*  Registration  */
 .Registration {

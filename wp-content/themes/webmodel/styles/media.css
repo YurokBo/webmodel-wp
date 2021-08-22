@@ -122,6 +122,11 @@
     .Knowledge-ItemText {
         padding: 98px 13px 28px 8px;
     }
+
+    .Knowledge-SubTitle {
+        margin-bottom: 88px;
+        font-size: 50px;
+    }
 }
 
 @media (min-width: 960px) {
@@ -453,6 +458,14 @@
 
     .Knowledge-List {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .Knowledge-Content {
+        flex-direction: row;
+    }
+
+    .Knowledge-ContentImg {
+        margin-right: 24px;
     }
 
 }
