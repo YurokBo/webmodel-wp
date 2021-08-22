@@ -2,7 +2,7 @@
     <div class="Container">
         <div class="Nav-Content">
             <a href="/" class="Nav-Logo">
-                <img src="./images/logo.png" alt="logo">
+                <img src="../images/logo.png" alt="logo">
             </a>
             <ul class="Nav-List">
                 <li class="Nav-Item">
@@ -27,7 +27,7 @@
                 <span></span>
             </div>
             <a href="/" class="Nav-LogoMobile">
-                <img src="./images/logo.png" alt="logo">
+                <img src="../images/logo.png" alt="logo">
             </a>
             <ul class="Nav-ListMobile">
                 <li class="Nav-Item">

@@ -1,5 +1,5 @@
 <?php
-include('./Components/Head.php')
+include_once(__DIR__ . '/components/Head.php')
 ?>
 
     <section class="Questions">
@@ -194,5 +194,5 @@ include('./Components/Head.php')
     </section>
 
 <?php
-include('./Components/Footer.php')
+include_once(__DIR__ . '/components/Footer.php')
 ?>
