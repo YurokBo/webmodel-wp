@@ -69,6 +69,7 @@
     .Contact {
         font-size: 35px;
     }
+
     .Contacts-ContactsTitle {
         font-size: 40px;
     }
@@ -78,34 +79,49 @@
         margin-bottom: 40px;
         padding: 26px 24px 26px 19px;
     }
+
     .Questions-ItemQuestionBox {
         align-items: center;
         font-size: 35px;
     }
+
     .Questions-ItemIcon {
         margin-right: 16px;
         width: 68px;
     }
+
     .Questions-ItemArrow {
         width: 32px;
         margin-top: 17px;
     }
+
     .Questions-ItemAnswer {
         font-size: 35px;
     }
+
     .Questions-FormTitle {
         font-size: 35px;
     }
+
     .Questions-FormInput {
         font-size: 30px;
     }
+
     .Questions-FormInput::placeholder {
         font-size: 30px;
     }
+
     .Questions-FormBtn {
         font-size: 35px;
     }
 
+    .Knowledge-ItemLabel {
+        font-size: 25px;
+    }
+
+    .Knowledge-ItemText {
+        padding: 98px 13px 28px 8px;
+    }
 }
 
 @media (min-width: 960px) {
@@ -138,46 +154,56 @@
     .Reviews {
         padding: 130px 0 221px;
     }
+
     .Reviews-Title {
         margin-bottom: 130px;
     }
+
     .Reviews-SliderBox {
         width: 940px;
         margin: 0 auto;
         position: relative;
     }
+
     .Reviews-Slider {
         width: 840px;
     }
+
     .Reviews-SliderItem {
         padding: 30px 31px 40px;
         background-color: var(--color-bg-main-light);
         border-radius: 10px;
         position: relative;
     }
+
     .Reviews-SliderItemTop {
         padding-left: 108px;
         margin-bottom: 38px;
     }
+
     .Reviews-SliderItemImg {
         width: 180px;
         height: 180px;
         position: absolute;
         margin-bottom: 0;
     }
+
     .Reviews-SliderItemName {
         margin-bottom: 9px;
         font-weight: 700;
         font-size: 30px;
     }
+
     .Reviews-SliderItemSub {
         font-size: 40px;
         color: var(--color-text-main2);
     }
+
     .Reviews-SliderItemText {
         font-size: 30px;
         color: var(--color-bg-main2);
     }
+
     .Reviews-SliderBtn {
         width: 50px;
     }
@@ -190,12 +216,19 @@
     .Questions-FormInputs {
         flex-direction: row;
     }
+
     .Questions-FormInput {
         margin-right: 35px;
         margin-bottom: 0;
     }
+
     .Questions-FormInput:last-child {
         margin-right: 0;
+    }
+
+    .Knowledge-List {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 23px;
     }
 }
 
@@ -210,14 +243,17 @@
     .NavFooter {
         padding: 80px 0 92px;
     }
+
     .NavFooter-List {
         flex-direction: row;
         font-size: 30px;
     }
+
     .NavFooter-Item {
         position: relative;
         margin-bottom: 0;
     }
+
     .NavFooter-Item:after {
         position: absolute;
         content: '';
@@ -225,9 +261,10 @@
         height: 29px;
         top: 50%;
         right: -17px;
-        transform: translate(0,-43%);
+        transform: translate(0, -43%);
         background-color: var(--color-text-main2);
     }
+
     .NavFooter-Item:last-child:after {
         display: none;
     }
@@ -318,16 +355,20 @@
     .History {
         padding: 100px 0 213px;
     }
+
     .History-Title {
         margin-bottom: 156px;
     }
+
     .History-Content {
         flex-direction: row;
     }
+
     .History-SliderBox {
         margin-right: 0;
         margin-bottom: 0;
     }
+
     .History-Slider {
         display: flex;
         align-items: center;
@@ -341,9 +382,11 @@
     .Contacts {
         padding: 249px 0 70px;
     }
+
     .Contacts-Content {
         flex-direction: row;
     }
+
     .Contacts-Contacts {
         margin-bottom: 0;
     }
@@ -384,6 +427,7 @@
         height: 458px;
         padding: 30px 91px 20px;
     }
+
     .Reviews-SliderItemTop {
         padding-left: 98px;
         margin-bottom: 38px;
@@ -407,6 +451,10 @@
         justify-content: space-between;
     }
 
+    .Knowledge-List {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
 }
 
 @media (min-width: 1646px) {
@@ -424,7 +472,11 @@
     }
 
     .Questions-Form {
-        margin: 0 ;
+        margin: 0;
+    }
+
+    .Knowledge-List {
+        grid-gap: 43px;
     }
 }
 
@@ -460,6 +512,7 @@
     .Reviews-DecorTop {
         top: -165px;
     }
+
     .Reviews-DecorBottom {
         top: 610px;
         right: -377px;

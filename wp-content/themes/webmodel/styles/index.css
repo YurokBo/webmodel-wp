@@ -510,6 +510,52 @@
 }
 
 
+/*  Knowledge  */
+.Knowledge {
+    padding: 249px 0 101px;
+}
+
+.Knowledge-Title {
+    margin-bottom: 100px;
+}
+
+.Knowledge-List {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap:23px 0;
+}
+
+.Knowledge-Item {
+    position: relative;
+    background-color: var(--color-bg-footer);
+   border-radius: 10px;
+    color: #ffffff;
+}
+
+.Knowledge-ItemLabel {
+    position: absolute;
+    padding: 7px 9px;
+    top: 8px;
+    left: 8px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    background: var(--color-bg-main-light);
+    border-radius: 10px;
+}
+
+.Knowledge-ItemPhoto {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.Knowledge-ItemText {
+    padding: 28px 8px;
+    font-weight: 600;
+}
+
+
 /*  Registration  */
 .Registration {
     padding: 249px 0 101px;
@@ -551,7 +597,7 @@
 .Registration-FormInput {
     width: 255px;
     padding: 15px 20px 17px 50px;
-   /* margin-right: 73px;*/
+    /* margin-right: 73px;*/
 }
 
 .Registration-FormInputs {
@@ -586,6 +632,7 @@
     color: var(--color-text-main);
     border-radius: 10px;
 }
+
 .Registration-FormTextarea::placeholder {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
