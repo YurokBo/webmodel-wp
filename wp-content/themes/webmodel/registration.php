@@ -29,27 +29,22 @@ include_once(__DIR__ . '/components/Head.php')
 <!--                        <option value="second">средний</option>-->
 <!--                        <option value="third">профессиональный</option>-->
 <!--                    </select>-->
-                    <div class="dropdown">
-                        <div class="dropdown__value">JavaScript</div>
-                        <ul class="dropdown__list">
-                            <li class="dropdown__item">
-                                <a href="" class="dropdown__link">
-                                    JavaScript
+                    <div class="Dropdown">
+                        <div class="Dropdown-Value">Уровень английского</div>
+                        <ul class="Dropdown-List">
+                            <li class="Dropdown-Item">
+                                <a href="" class="Dropdown-Link">
+                                    начальный
                                 </a>
                             </li>
-                            <li class="dropdown__item">
-                                <a href="" class="dropdown__link">
-                                    PHP
+                            <li class="Dropdown-Item">
+                                <a href="" class="Dropdown-Link">
+                                    средний
                                 </a>
                             </li>
-                            <li class="dropdown__item">
-                                <a href="" class="dropdown__link">
-                                    Python
-                                </a>
-                            </li>
-                            <li class="dropdown__item">
-                                <a href="" class="dropdown__link">
-                                    Fortran
+                            <li class="Dropdown-Item">
+                                <a href="" class="Dropdown-Link">
+                                    профессиональный
                                 </a>
                             </li>
                         </ul>

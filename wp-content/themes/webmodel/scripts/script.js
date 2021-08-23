@@ -128,13 +128,13 @@ document.querySelector("form").submit(function (e) { //Change
 })*/
 
 function select(e) {
-    const menu = e.target.closest('.dropdown'),
-        dropdownList = menu.querySelector('.dropdown__list'),
-        dropdownValue = menu.querySelector('.dropdown__value');
+    const menu = e.target.closest('.Dropdown'),
+        dropdownList = menu.querySelector('.Dropdown-List'),
+        dropdownValue = menu.querySelector('.Dropdown-Value');
 
-    dropdownList.classList.add('dropdown__list_active');
-    const htmlLink = e.target.closest('.dropdown__link').innerHTML;
-    dropdownList.classList.remove('dropdown__list_active');
+    dropdownList.classList.add('Dropdown-List--active');
+    const htmlLink = e.target.closest('.Dropdown-Link').innerHTML;
+    dropdownList.classList.remove('Dropdown-List--active');
     dropdownValue.innerHTML = htmlLink;
     e.preventDefault();
     console.log(htmlLink)
