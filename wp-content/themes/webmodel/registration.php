@@ -20,31 +20,26 @@ include_once(__DIR__ . '/components/Head.php')
                             class="Input Input--blue Registration-FormInput"
                             type="text"
                             placeholder="Возраст"
+                            name="age"
                             autocomplete="off"
                             required
                     >
-<!--                    <select name="language">-->
-<!--                        <option disabled selected>Уровень английского</option>-->
-<!--                        <option value="first">начальный</option>-->
-<!--                        <option value="second">средний</option>-->
-<!--                        <option value="third">профессиональный</option>-->
-<!--                    </select>-->
                     <div class="Dropdown">
-                        <div class="Dropdown-Value">Уровень английского</div>
+                        <div class="Dropdown-Value"  name="level">Уровень английского</div>
                         <ul class="Dropdown-List">
                             <li class="Dropdown-Item">
-                                <a href="" class="Dropdown-Link">
-                                    начальный
+                                <a href="" class="Dropdown-Link" value="Начальный">
+                                    Начальный
                                 </a>
                             </li>
                             <li class="Dropdown-Item">
-                                <a href="" class="Dropdown-Link">
-                                    средний
+                                <a href="" class="Dropdown-Link" value="Средний">
+                                    Средний
                                 </a>
                             </li>
                             <li class="Dropdown-Item">
-                                <a href="" class="Dropdown-Link">
-                                    профессиональный
+                                <a href="" class="Dropdown-Link" value="Профессиональный">
+                                    Профессиональный
                                 </a>
                             </li>
                         </ul>
@@ -53,11 +48,12 @@ include_once(__DIR__ . '/components/Head.php')
                 <textarea placeholder="О себе"
                           autocomplete="off"
                           required
+                          name="message"
                           class="Input--blue Registration-FormTextarea"></textarea>
                 <div class="Registration-FormField">
                     <input  id="file"
                             type="file"
-                            name="photo"
+                            name="file"
                             multiple
                             accept="image/*,image/jpeg"
                             class="FileInput"
@@ -76,6 +72,7 @@ include_once(__DIR__ . '/components/Head.php')
                             class="Input Input--pink Registration-FormInput"
                             type="text"
                             placeholder="Твоё имя"
+                            name="name"
                             autocomplete="off"
                             required
                     >

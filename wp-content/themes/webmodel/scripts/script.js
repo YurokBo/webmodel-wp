@@ -1,3 +1,23 @@
+$(document).ready(function () {
+//E-mail Ajax Send
+    $("form").submit(function () { //Change
+        var th = $(this);
+        $.ajax({
+            type: "POST",
+            url: "mail.php", //Change
+            data: th.serialize()
+        }).done(function () {
+
+            setTimeout(function () {
+                // Done Functions
+                th.trigger("reset");
+            }, 1000);
+        });
+        return false;
+    });
+});
+
+
 document.addEventListener('click', e => {
     const menu = document.querySelector('.Nav-ContentMobile')
     openMobileMenu(e, menu)
@@ -103,29 +123,16 @@ function showSlidesReview(n) {
     slidesReviews[slideIndex - 1].style.display = "block";
 }
 
-//E-mail Ajax Send
+/*//E-mail Ajax Send
 document.querySelector("form").submit(function (e) { //Change
     e.preventDefault();
-    this.ajax({
+    ajax({
         type: "POST",
         url: "mail.php", //Change
         data: this.serialize()
     }).done();
     return false;
-});
-
-/*document.addEventListener('click', e => {
-    const menu = e.target.closest('.dropdown'),
-        dropdownList = menu.querySelector('.dropdown__list'),
-        dropdownValue = menu.querySelector('.dropdown__value');
-
-    dropdownList.classList.add('dropdown__list_active');
-    const htmlLink = e.target.closest('.dropdown__link').innerHTML;
-    dropdownList.classList.remove('dropdown__list_active');
-    dropdownValue.innerHTML = htmlLink;
-    e.preventDefault();
-    console.log("hr;;kf")
-})*/
+});*/
 
 function select(e) {
     const menu = e.target.closest('.Dropdown'),
@@ -133,9 +140,11 @@ function select(e) {
         dropdownValue = menu.querySelector('.Dropdown-Value');
 
     dropdownList.classList.add('Dropdown-List--active');
+    dropdownValue.classList.add('Dropdown-Value--active');
     const htmlLink = e.target.closest('.Dropdown-Link').innerHTML;
     dropdownList.classList.remove('Dropdown-List--active');
+    dropdownValue.classList.remove('Dropdown-Value--active');
     dropdownValue.innerHTML = htmlLink;
+    dropdownValue.style.color = '#4A4A4A';
     e.preventDefault();
-    console.log(htmlLink)
 }
