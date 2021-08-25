@@ -127,6 +127,33 @@
         margin-bottom: 88px;
         font-size: 50px;
     }
+
+    .Registration-FormTitle {
+        font-size: 40px;
+    }
+
+    .Registration-FormBtn {
+        padding: 25px 114px;
+        font-weight: 400;
+    }
+    .Registration-FormLabel {
+        font-size: 35px;
+    }
+    .Input {
+        font-size: 35px;
+    }
+    .Input::placeholder {
+        font-size: 35px;
+    }
+    .Registration-FormTextarea::placeholder {
+        font-size: 35px;
+    }
+    .Registration-FormTextarea {
+        font-size: 35px;
+    }
+    .Dropdown {
+        font-size: 35px;
+    }
 }
 
 @media (min-width: 960px) {
@@ -235,16 +262,45 @@
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 23px;
     }
-}
 
-@media (min-width: 970px) {
-    .Description-Item {
-        height: 679px;
-        margin: 0 9.4px 14px;
+    .Registration {
+        padding: 249px 0 101px;
     }
-}
 
-@media (min-width: 1010px) {
+    .Registration-Title {
+        margin-bottom: 100px;
+    }
+
+    .Registration-Form {
+        max-width: 825px;
+    }
+    .Registration-FormInputs {
+        flex-direction: row;
+    }
+    .Registration-FormInputs .Registration-FormInput {
+        width: 255px;
+        margin-right: 73px;
+        margin-bottom: 0;
+    }
+    .Registration-FormInput {
+        padding: 15px 20px 17px 50px;
+    }
+    .Registration-FormInputs .Registration-FormInput:last-child {
+        margin-right: 0;
+    }
+    .Registration-FormTextarea {
+        padding: 15px 20px 17px 50px;
+    }
+    .Registration-FormLabel {
+        padding: 15px 20px 17px 50px;
+    }
+    .Dropdown-Value {
+        padding: 12px 40px 20px;
+    }
+    .Dropdown-Link {
+        padding: 12px 40px 20px;
+    }
+
     .NavFooter {
         padding: 80px 0 92px;
     }
@@ -273,6 +329,17 @@
     .NavFooter-Item:last-child:after {
         display: none;
     }
+}
+
+@media (min-width: 970px) {
+    .Description-Item {
+        height: 679px;
+        margin: 0 9.4px 14px;
+    }
+}
+
+@media (min-width: 1010px) {
+
 }
 
 @media (min-width: 1248px) {
