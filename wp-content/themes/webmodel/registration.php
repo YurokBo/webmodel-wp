@@ -1,6 +1,9 @@
 <?php
-include_once(__DIR__ . '/components/Head.php')
-?>
+//include_once(__DIR__ . '/components/Head.php')
+//?>
+
+
+<?php get_header(); ?>
 
 <section class="Registration">
     <div class="Container">
@@ -61,7 +64,7 @@ include_once(__DIR__ . '/components/Head.php')
                     <label for="file"
                     class="Input--blue Registration-FormLabel">
                         Ваше фото
-                        <img src="images/arrow-download.svg" alt="arrow" class="Registration-FormLabelImg">
+                        <img src="assets/images/arrow-download.svg" alt="arrow" class="Registration-FormLabelImg">
                     </label>
                 </div>
             </div>
@@ -102,6 +105,8 @@ include_once(__DIR__ . '/components/Head.php')
     </div>
 </section>
 
+<?php get_footer(); ?>
+
 <?php
-include_once(__DIR__ . '/components/Footer.php')
-?>
+//include_once(__DIR__ . '/components/Footer.php')
+//?>

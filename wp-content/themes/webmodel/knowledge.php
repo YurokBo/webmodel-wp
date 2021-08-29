@@ -1,6 +1,8 @@
 <?php
-include_once(__DIR__ . '/components/Head.php')
-?>
+//include_once(__DIR__ . '/components/Head.php')
+//?>
+
+<?php get_header(); ?>
 
 <section class="Knowledge">
     <div class="Container">
@@ -12,7 +14,7 @@ include_once(__DIR__ . '/components/Head.php')
                 <div class="Knowledge-ItemLabel">
                     статьи
                 </div>
-                <img src="images/temporary-photo.png" alt="photo" class="Knowledge-ItemPhoto">
+                <img src="assets/images/temporary-photo.png" alt="photo" class="Knowledge-ItemPhoto">
                 <p class="Text Knowledge-ItemText">
                     Секреты популярности среди англоязычных пользователей
                 </p>
@@ -21,7 +23,7 @@ include_once(__DIR__ . '/components/Head.php')
                 <div class="Knowledge-ItemLabel">
                     практические советы
                 </div>
-                <img src="images/temporary-photo.png" alt="photo" class="Knowledge-ItemPhoto">
+                <img src="assets/images/temporary-photo.png" alt="photo" class="Knowledge-ItemPhoto">
                 <p class="Text Knowledge-ItemText">
                     Причины популярности вебкам сайта
                 </p>
@@ -30,7 +32,7 @@ include_once(__DIR__ . '/components/Head.php')
                 <div class="Knowledge-ItemLabel">
                     практические советы
                 </div>
-                <img src="images/temporary-photo.png" alt="photo" class="Knowledge-ItemPhoto">
+                <img src="assets/images/temporary-photo.png" alt="photo" class="Knowledge-ItemPhoto">
                 <p class="Text Knowledge-ItemText">
                     10 профессий для дополнительной работы в кризис: советы для девушек
                 </p>
@@ -39,7 +41,7 @@ include_once(__DIR__ . '/components/Head.php')
                 <div class="Knowledge-ItemLabel">
                     статьи
                 </div>
-                <img src="images/temporary-photo.png" alt="photo" class="Knowledge-ItemPhoto">
+                <img src="assets/images/temporary-photo.png" alt="photo" class="Knowledge-ItemPhoto">
                 <p class="Text Knowledge-ItemText">
                     Виды подработки
                     во всемирной паутине.
@@ -49,7 +51,7 @@ include_once(__DIR__ . '/components/Head.php')
                 <div class="Knowledge-ItemLabel">
                     практические советы
                 </div>
-                <img src="images/temporary-photo.png" alt="photo" class="Knowledge-ItemPhoto">
+                <img src="assets/images/temporary-photo.png" alt="photo" class="Knowledge-ItemPhoto">
                 <p class="Text Knowledge-ItemText">
                     Как найти высокооплачиваемую работу: советы для девушек
                 </p>
@@ -58,7 +60,7 @@ include_once(__DIR__ . '/components/Head.php')
                 <div class="Knowledge-ItemLabel">
                     статьи
                 </div>
-                <img src="images/temporary-photo.png" alt="photo" class="Knowledge-ItemPhoto">
+                <img src="assets/images/temporary-photo.png" alt="photo" class="Knowledge-ItemPhoto">
                 <p class="Text Knowledge-ItemText">
                     Реально ли найти подработку на выходные?
                 </p>
@@ -68,6 +70,7 @@ include_once(__DIR__ . '/components/Head.php')
 </section>
 
 
+<?php get_footer(); ?>
 <?php
-include_once(__DIR__ . '/components/Footer.php')
-?>
+//include_once(__DIR__ . '/components/Footer.php')
+//?>

@@ -1,6 +1,8 @@
 <?php
-include_once(__DIR__ . '/components/Head.php')
-?>
+//include_once(__DIR__ . '/components/Head.php')
+//?>
+
+<?php get_header(); ?>
 
 <section class="Header">
     <div class="Container">
@@ -17,7 +19,8 @@ include_once(__DIR__ . '/components/Head.php')
                 </a>
             </div>
             <div class="Header-ImageBox">
-                <img src="images/header-img.png" alt="girls" class="Header-Image">
+                <img src="<?php bloginfo('template_url'); ?>/assets/images/header-img.png" alt="girls"
+                     class="Header-Image">
             </div>
         </div>
         <div class="Decor Header-Decor">
@@ -48,19 +51,19 @@ include_once(__DIR__ . '/components/Head.php')
                 </svg>
             </div>
             <div class="Steps-Item">
-                <img src="images/list.png" alt="icon" class="Steps-Img">
+                <img src="<?php bloginfo('template_url'); ?>/assets/images/list.png" alt="icon" class="Steps-Img">
                 <div class="Text Text Steps-Text">Заполнение анкеты</div>
             </div>
             <div class="Steps-Item">
-                <img src="images/docs.png" alt="icon" class="Steps-Img">
+                <img src="<?php bloginfo('template_url'); ?>/assets/images/docs.png" alt="icon" class="Steps-Img">
                 <div class="Text Steps-Text">Проверка документов</div>
             </div>
             <div class="Steps-Item">
-                <img src="images/education.png" alt="icon" class="Steps-Img">
+                <img src="<?php bloginfo('template_url'); ?>/assets/images/education.png" alt="icon" class="Steps-Img">
                 <div class="Text Steps-Text">Обучение</div>
             </div>
             <div class="Steps-Item">
-                <img src="images/star.png" alt="icon" class="Steps-Img">
+                <img src="<?php bloginfo('template_url'); ?>/assets/images/star.png" alt="icon" class="Steps-Img">
                 <div class="Text Steps-Text">Начаинаем:)</div>
             </div>
         </div>
@@ -96,7 +99,7 @@ include_once(__DIR__ . '/components/Head.php')
                 </a>
             </div>
             <div class="About-ImgBox">
-                <img src="images/about-img.png" alt="image" class="About-Img">
+                <img src="<?php bloginfo('template_url'); ?>/assets/images/about-img.png" alt="image" class="About-Img">
             </div>
         </div>
         <div class="Decor About-Decor">
@@ -154,7 +157,8 @@ include_once(__DIR__ . '/components/Head.php')
     <div class="Container">
         <div class="Description-List">
             <div class="Description-Item">
-                <img src="./images/icon-location.png" alt="icons" class="Description-ItemImg">
+                <img src="<?php bloginfo('template_url'); ?>/assets/images/icon-location.png" alt="icons"
+                     class="Description-ItemImg">
                 <div class="Text Description-ItemTitle">
                     Свобода
                 </div>
@@ -165,7 +169,8 @@ include_once(__DIR__ . '/components/Head.php')
                 </div>
             </div>
             <div class="Description-Item">
-                <img src="./images/icon-testimonials.png" alt="icons" class="Description-ItemImg">
+                <img src="<?php bloginfo('template_url'); ?>/assets/images/icon-testimonials.png" alt="icons"
+                     class="Description-ItemImg">
                 <div class="Text Description-ItemTitle">
                     Персональный менеджер
                 </div>
@@ -177,7 +182,8 @@ include_once(__DIR__ . '/components/Head.php')
                 </div>
             </div>
             <div class="Description-Item">
-                <img src="./images/icon-actress.png" alt="icons" class="Description-ItemImg">
+                <img src="<?php bloginfo('template_url'); ?>/assets/images/icon-actress.png" alt="icons"
+                     class="Description-ItemImg">
                 <div class="Text Description-ItemTitle">
                     Тебе решать
                 </div>
@@ -208,14 +214,14 @@ include_once(__DIR__ . '/components/Head.php')
                 <div class="History-Slider">
                     <div class="History-SliderItem">
                         <img
-                                src="images/sertificate-slide-1.png"
+                                src="<?php bloginfo('template_url'); ?>/assets/images/sertificate-slide-1.png"
                                 class="History-SliderImg"
                                 alt="slide-1">
                     </div>
 
                     <div class="History-SliderItem">
                         <img
-                                src="images/sertificate-slide-2.png"
+                                src="<?php bloginfo('template_url'); ?>/assets/images/sertificate-slide-2.png"
                                 class="History-SliderImg"
                                 alt="slide-2">
                     </div>
@@ -223,10 +229,11 @@ include_once(__DIR__ . '/components/Head.php')
                 </div>
                 <!--<div class="History-SliderBtns">-->
                 <button class="SliderBtn History-SliderBtn History-SliderBtn--prev" onclick="minusSlide()">
-                    <img src="images/arrow-prev.png" alt="arrow">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/images/arrow-prev.png" alt="arrow">
                 </button>
-                <button class="SliderBtn History-SliderBtn History-SliderBtn--next SliderBtn--next" onclick="plusSlide()">
-                    <img src="images/arrow-next.png" alt="arrow">
+                <button class="SliderBtn History-SliderBtn History-SliderBtn--next SliderBtn--next"
+                        onclick="plusSlide()">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/images/arrow-next.png" alt="arrow">
                 </button>
                 <!--</div>-->
 
@@ -258,7 +265,8 @@ include_once(__DIR__ . '/components/Head.php')
         <div class="Reviews-SliderBox">
             <div class="Reviews-Slider">
                 <div class="Reviews-SliderItem">
-                    <img src="images/review-1.png" alt="" class="Reviews-SliderItemImg">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/images/review-1.png" alt=""
+                         class="Reviews-SliderItemImg">
                     <div class="Reviews-SliderItemTop">
                         <div class="Reviews-SliderItemName">
                             Анастасия, 23 года
@@ -276,7 +284,8 @@ include_once(__DIR__ . '/components/Head.php')
                 </div>
 
                 <div class="Reviews-SliderItem">
-                    <img src="images/review-1.png" alt="" class="Reviews-SliderItemImg">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/images/review-1.png" alt=""
+                         class="Reviews-SliderItemImg">
                     <div class="Reviews-SliderItemTop">
                         <div class="Reviews-SliderItemName">
                             Елена, 25 года
@@ -294,10 +303,11 @@ include_once(__DIR__ . '/components/Head.php')
             </div>
             <!--<div class="History-SliderBtns">-->
             <button class="SliderBtn Reviews-SliderBtn Reviews-SliderBtn--prev" onclick="minusSlideReview()">
-                <img src="images/arrow-prev.png" alt="arrow">
+                <img src="<?php bloginfo('template_url'); ?>/assets/images/arrow-prev.png" alt="arrow">
             </button>
-            <button class="SliderBtn Reviews-SliderBtn Reviews-SliderBtn--next SliderBtn--next" onclick="plusSlideReview()">
-                <img src="images/arrow-next.png" alt="arrow">
+            <button class="SliderBtn Reviews-SliderBtn Reviews-SliderBtn--next SliderBtn--next"
+                    onclick="plusSlideReview()">
+                <img src="<?php bloginfo('template_url'); ?>/assets/images/arrow-next.png" alt="arrow">
             </button>
             <!--</div>-->
 
@@ -311,6 +321,8 @@ include_once(__DIR__ . '/components/Head.php')
     </div>
 </section>
 
-<?php
-include_once(__DIR__ . '/components/Footer.php')
-?>
+<?php get_footer(); ?>
+<!--
+--><?php
+/*include_once(__DIR__ . '/components/Footer.php')
+*/ ?>

@@ -11,7 +11,7 @@ include_once(__DIR__ . '/../components/Head.php');
                 Причины популярности вебкам сайта
             </h4>
             <div class="Knowledge-Content">
-                <img src="../images/temporary-photo-big.png" alt="" class="Knowledge-ContentImg">
+                <img src="../assets/images/temporary-photo-big.png" alt="" class="Knowledge-ContentImg">
                 <p class="Text Knowledge-ContentText">
                     Идеальной работой можно назвать только ту, которая соответствует трем критериям: высокая зарплата,
                     удобный график и обязанности, исполняемые с удовольствием. Что приносит девушке веб моделинг? Как

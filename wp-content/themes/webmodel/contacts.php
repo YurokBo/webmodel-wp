@@ -1,6 +1,9 @@
 <?php
-include_once(__DIR__ . '/components/Head.php')
-?>
+//include_once(__DIR__ . '/components/Head.php')
+//?>
+
+
+<?php get_header(); ?>
 
     <section class="Contacts">
         <div class="Container">
@@ -25,6 +28,9 @@ include_once(__DIR__ . '/components/Head.php')
         </div>
     </section>
 
+
+<?php get_footer(); ?>
+
 <?php
-include_once(__DIR__ . '/components/Footer.php')
-?>
+//include_once(__DIR__ . '/components/Footer.php')
+//?>

@@ -1,6 +1,9 @@
 <?php
-include_once(__DIR__ . '/components/Head.php')
-?>
+//include_once(__DIR__ . '/components/Head.php')
+//?>
+
+
+<?php get_header(); ?>
 
     <section class="Questions">
         <div class="Container">
@@ -11,12 +14,12 @@ include_once(__DIR__ . '/components/Head.php')
                 <div class="Questions-Item">
                     <div class="Questions-ItemQuestion">
                         <div class="Questions-ItemQuestionBox">
-                            <img src="images/question-icon.png"
+                            <img src="assets/images/question-icon.png"
                                  alt="icon"
                                  class="Questions-ItemIcon">
                             В чем суть работы?
                         </div>
-                        <img src="images/arrow-next.png" alt="" class="Questions-ItemArrow">
+                        <img src="assets/images/arrow-next.png" alt="" class="Questions-ItemArrow">
                     </div>
                     <div class="Questions-ItemAnswer">
                         Работа заключается в общении модели и пользователя в видео-чате.
@@ -27,12 +30,12 @@ include_once(__DIR__ . '/components/Head.php')
                 <div class="Questions-Item">
                     <div class="Questions-ItemQuestion">
                         <div class="Questions-ItemQuestionBox">
-                            <img src="images/question-icon.png"
+                            <img src="assets/images/question-icon.png"
                                  alt="icon"
                                  class="Questions-ItemIcon">
                             Как начать работать?
                         </div>
-                        <img src="images/arrow-next.png" alt="" class="Questions-ItemArrow">
+                        <img src="assets/images/arrow-next.png" alt="" class="Questions-ItemArrow">
                     </div>
                     <div class="Questions-ItemAnswer">
                         1. Заполняем анкету.<br>
@@ -48,12 +51,12 @@ include_once(__DIR__ . '/components/Head.php')
                 <div class="Questions-Item">
                     <div class="Questions-ItemQuestion">
                         <div class="Questions-ItemQuestionBox">
-                            <img src="images/question-icon.png"
+                            <img src="assets/images/question-icon.png"
                                  alt="icon"
                                  class="Questions-ItemIcon">
                             С какими сайтами вы работаете?
                         </div>
-                        <img src="images/arrow-next.png" alt="" class="Questions-ItemArrow">
+                        <img src="assets/images/arrow-next.png" alt="" class="Questions-ItemArrow">
                     </div>
                     <div class="Questions-ItemAnswer">
                         Наша студия сотрудничает только с самыми крупными и прибыльными вебкам-сайтами. Мы не тратим
@@ -66,12 +69,12 @@ include_once(__DIR__ . '/components/Head.php')
                 <div class="Questions-Item">
                     <div class="Questions-ItemQuestion">
                         <div class="Questions-ItemQuestionBox">
-                            <img src="images/question-icon.png"
+                            <img src="assets/images/question-icon.png"
                                  alt="icon"
                                  class="Questions-ItemIcon">
                             Зачем загружать документы?
                         </div>
-                        <img src="images/arrow-next.png" alt="" class="Questions-ItemArrow">
+                        <img src="assets/images/arrow-next.png" alt="" class="Questions-ItemArrow">
                     </div>
                     <div class="Questions-ItemAnswer">
                         <p>В соответствии с федеральным законом США 18 U.S.C §§ 2257- 2257A, все лица, работающие на
@@ -83,12 +86,12 @@ include_once(__DIR__ . '/components/Head.php')
                 <div class="Questions-Item">
                     <div class="Questions-ItemQuestion">
                         <div class="Questions-ItemQuestionBox">
-                            <img src="images/question-icon.png"
+                            <img src="assets/images/question-icon.png"
                                  alt="icon"
                                  class="Questions-ItemIcon">
                             Какие могут быть сложности?
                         </div>
-                        <img src="images/arrow-next.png" alt="" class="Questions-ItemArrow">
+                        <img src="assets/images/arrow-next.png" alt="" class="Questions-ItemArrow">
                     </div>
                     <div class="Questions-ItemAnswer">
                         <p>-Главная проблема - отсутсвие дисциплины у моделей. Мало кто может просто взять и заставить
@@ -102,12 +105,12 @@ include_once(__DIR__ . '/components/Head.php')
                 <div class="Questions-Item">
                     <div class="Questions-ItemQuestion">
                         <div class="Questions-ItemQuestionBox">
-                            <img src="images/question-icon.png"
+                            <img src="assets/images/question-icon.png"
                                  alt="icon"
                                  class="Questions-ItemIcon">
                             Что если нам меня возьмут кредит?
                         </div>
-                        <img src="images/arrow-next.png" alt="" class="Questions-ItemArrow">
+                        <img src="assets/images/arrow-next.png" alt="" class="Questions-ItemArrow">
                     </div>
                     <div class="Questions-ItemAnswer">
                         Ни один банк не выдает кредиты без личного присутствия владельца документов. Эту информацию вам
@@ -118,12 +121,12 @@ include_once(__DIR__ . '/components/Head.php')
                 <div class="Questions-Item">
                     <div class="Questions-ItemQuestion">
                         <div class="Questions-ItemQuestionBox">
-                            <img src="images/question-icon.png"
+                            <img src="assets/images/question-icon.png"
                                  alt="icon"
                                  class="Questions-ItemIcon">
                             Какие преимущества кроме высокого заработка?
                         </div>
-                        <img src="images/arrow-next.png" alt="" class="Questions-ItemArrow">
+                        <img src="assets/images/arrow-next.png" alt="" class="Questions-ItemArrow">
                     </div>
                     <div class="Questions-ItemAnswer">
                         <p>-Если ты работаешь из дома — нет необходимости спешить, отчитываться начальству и т. д. Здесь
@@ -143,12 +146,12 @@ include_once(__DIR__ . '/components/Head.php')
                 <div class="Questions-Item">
                     <div class="Questions-ItemQuestion">
                         <div class="Questions-ItemQuestionBox">
-                            <img src="images/question-icon.png"
+                            <img src="assets/images/question-icon.png"
                                  alt="icon"
                                  class="Questions-ItemIcon">
                             Что, если вы дадите кому нибудь документы?
                         </div>
-                        <img src="images/arrow-next.png" alt="" class="Questions-ItemArrow">
+                        <img src="assets/images/arrow-next.png" alt="" class="Questions-ItemArrow">
                     </div>
                     <div class="Questions-ItemAnswer">
                         Мы существуем с 2016 года и мы дорожим своей репутацией. Нам уже доверились тысячи моделей. Мы и
@@ -193,6 +196,8 @@ include_once(__DIR__ . '/components/Head.php')
         </div>
     </section>
 
+<?php get_footer(); ?>
+
 <?php
-include_once(__DIR__ . '/components/Footer.php')
-?>
+//include_once(__DIR__ . '/components/Footer.php')
+//?>
