@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="61df632a-e1e9-4646-8b86-176e38d3a8f6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-config-sample.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-config-sample.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/plugins/akismet-ru_RU.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/plugins/akismet-ru_RU.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/_inc/akismet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/_inc/akismet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/_inc/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/_inc/img/logo-full-2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/akismet.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/changelog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet-admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet-cli.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet-rest-api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet-widget.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/activate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/connect-jp.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/enter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/get.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/notice.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/predefined.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/setup.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/start.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/stats.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/title.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/wrapper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/hello.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/components/Footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/components/Head.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/components/NavBar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/components/NavFooter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/contacts.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/contacts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/fonts/Lato-Bold.eot" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/fonts/Lato-Bold.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/fonts/Lato-Bold.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/fonts/Lato-Bold.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/fonts/Lato-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/fonts/Lato-Bold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/fonts/Lato-Bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/fonts/Lato-Bold.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/fonts/Lato-Bold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/fonts/Lato-Bold.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/fonts/Lato-Medium.eot" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/fonts/Lato-Medium.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/fonts/Lato-Medium.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/fonts/Lato-Medium.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/fonts/Lato-Medium.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/fonts/Lato-Medium.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/fonts/Lato-Medium.woff" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/fonts/Lato-Medium.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/fonts/Lato-Medium.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/fonts/Lato-Medium.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/fonts/Lato-Regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/fonts/Lato-Regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/fonts/Lato-Regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/fonts/Lato-Regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/fonts/Lato-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/fonts/Lato-Regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/fonts/Lato-Regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/fonts/Lato-Regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/fonts/Lato-Regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/fonts/Lato-Regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/fonts/Lato-Semibold.eot" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/fonts/Lato-Semibold.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/fonts/Lato-Semibold.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/fonts/Lato-Semibold.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/fonts/Lato-Semibold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/fonts/Lato-Semibold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/fonts/Lato-Semibold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/fonts/Lato-Semibold.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/fonts/Lato-Semibold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/fonts/Lato-Semibold.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/images/about-img.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/images/about-img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/images/arrow-down.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/images/arrow-down.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/images/arrow-download.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/images/arrow-download.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/images/arrow-next.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/images/arrow-next.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/images/arrow-prev.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/images/arrow-prev.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/images/contacts-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/images/contacts-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/images/docs.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/images/docs.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/images/education.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/images/education.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/images/header-img.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/images/header-img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/images/icon-actress.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/images/icon-actress.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/images/icon-location.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/images/icon-location.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/images/icon-testimonials.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/images/icon-testimonials.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/images/list.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/images/list.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/images/question-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/images/question-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/images/review-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/images/review-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/images/sertificate-slide-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/images/sertificate-slide-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/images/sertificate-slide-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/images/sertificate-slide-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/images/star.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/images/star.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/images/steps-img.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/images/steps-img.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/images/temporary-photo-big.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/images/temporary-photo-big.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/images/temporary-photo.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/images/temporary-photo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/knowledge-base/knowledge-page1.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/knowledge-base/knowledge-page1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/knowledge-base/knowledge-page2.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/knowledge-base/knowledge-page2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/knowledge-base/knowledge-page3.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/knowledge-base/knowledge-page3.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/knowledge-base/knowledge-page4.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/knowledge-base/knowledge-page4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/knowledge-base/knowledge-page5.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/knowledge-base/knowledge-page5.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/knowledge-base/knowledge-page6.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/knowledge-base/knowledge-page6.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/knowledge.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/knowledge.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/questions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/questions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/registration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/scripts/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/styles/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/styles/colors.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/styles/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/styles/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/styles/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/styles/fonts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/styles/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/styles/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/styles/media.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/styles/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/styles/navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/styles/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/styles/slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webmodel/styles/titles.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/webmodel/assets/styles/titles.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1xOkWdLVrcad5sWvI5CVdzj9k1M" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="61df632a-e1e9-4646-8b86-176e38d3a8f6" name="Changes" comment="" />
+      <created>1630233554926</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1630233554926</updated>
+      <workItem from="1630233557193" duration="7732000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
